@@ -12,5 +12,9 @@ cd C:\Program Files\Kubernetes\Minikube
 
 minikube start --vm-driver hyperv --hyperv-virtual-switch "Default Switch" 
 
+or 
+
+minikube start --driver=virtualbox
+
 kubectl get nodes 
 ```
